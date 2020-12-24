@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "178098915670",
+    "firebase_url": "https://sungthihoa-1a35c-default-rtdb.firebaseio.com",
+    "project_id": "sungthihoa-1a35c",
+    "storage_bucket": "sungthihoa-1a35c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:178098915670:android:1e937ac438886d497eaef7",
+        "android_client_info": {
+          "package_name": "vangthao.app.sungthihoa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "178098915670-a9uscr7dpn1bdm7mq9hrirn39c5codmv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1yD-0zlrpsopAxEw7PI0SKKS4j_gODz0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "178098915670-a9uscr7dpn1bdm7mq9hrirn39c5codmv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

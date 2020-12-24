@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NoelActivity">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/imgHoa"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/anhhoa" />
+
+    <EditText
+        android:layout_margin="10dp"
+        android:hint="Nhập điều ước của em vào đây đi..."
+        android:layout_below="@id/imgHoa"
+        android:id="@+id/edtWish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/edtWish"
+        android:text="Gửi điều ước"
+        android:id="@+id/btnSendWish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="10dp"
+        android:layout_below="@id/btnSendWish"
+        android:textColor="#F44336"
+        android:id="@+id/txtBye"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_margin="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#3F51B5"
+        android:layout_centerHorizontal="true"
+        android:text="Xin chào em Hoa!"
+        android:id="@+id/txtHelloMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_below="@id/txtHelloMain"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_centerHorizontal="true"
+        android:text="Chúc một ngày Noel vui vẻ, ấm áp, tràn ngập niềm vui nha nha nha :))"
+        android:id="@+id/txtHelloMerychristmas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <ImageView
+        android:scaleType="fitCenter"
+        android:src="@drawable/background_mery_christmas"
+        android:layout_below="@id/txtHelloMerychristmas"
+        android:id="@+id/imgBackground"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:layout_below="@id/imgBackground"
+        android:text="Nhấn vào đây"
+        android:id="@+id/btnClickHere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>
